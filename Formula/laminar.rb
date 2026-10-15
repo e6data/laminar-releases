@@ -9,6 +9,9 @@ class Laminar < Formula
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
+  # ICU has its own extension signature. Keep bundled library IDs unchanged.
+  preserve_rpath
+
   def install
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/laminar"
