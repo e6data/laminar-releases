@@ -1,9 +1,9 @@
 class Laminar < Formula
   desc "Unified engine for queries, streaming, and data workloads"
   homepage "https://github.com/e6data/laminar-releases"
-  url "https://github.com/e6data/laminar-releases/releases/download/v0.1.0/laminar-0.1.0-darwin-arm64.zip"
-  version "0.1.0"
-  sha256 "fc8522b57ce0e81b17ef0118c9131b4addcf65be43f10ce6c007a8ed330be9a7"
+  url "https://github.com/e6data/laminar-releases/releases/download/v0.1.1/laminar-0.1.1-darwin-arm64.zip"
+  version "0.1.1"
+  sha256 "19ecfd0d38c659e3068ff944a7f072c973b8467d60bf5c503bfc643fb47d81d6"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on arch: :arm64
